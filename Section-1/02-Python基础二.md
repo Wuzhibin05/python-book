@@ -162,7 +162,7 @@ while flag:
 
 
 
-####  **2.3.2 终止循环的第二方法：break**
+####  2.3.2 终止循环的第二方法：break
 
  　break：很简单，就是Python给大家提供的关键字，什么是关键字？就是python中具有一定特殊意义的单词，比如if，str，int等，这些不能用作变量对吧？ 
 
@@ -170,7 +170,7 @@ while flag:
 
 
 
-```
+```python
 flag = True
 print(111)
 while flag:
@@ -224,7 +224,7 @@ while 后面的else 作用是指，当while 循环正常执行完，中间没有
 
 
 
-```
+```python
 count = 0
 while count <= 5 :
     count += 1
@@ -241,7 +241,7 @@ print("-----out of while loop ------")
 
 
 
-```
+```python
 Loop 1
 Loop 2
 Loop 3
@@ -258,7 +258,7 @@ Loop 6
 
 
 
-```
+```python
 count = 0
 while count <= 5 :
     count += 1
@@ -274,7 +274,7 @@ print("-----out of while loop ------")
 
 输出
 
-```
+```python
 Loop 1
 Loop 2
 -----out of while loop ------
@@ -635,11 +635,11 @@ GBK: 每个字符占2个字节, 16位.　
 
 UTF-8 ：最少用8位数,去表示一个字符.   
 
-　　　　　　英文:      8位,1个字节表示.   
+　　　    英文:      8位,1个字节表示.   
 
 　　　　欧洲文字:     16位,两个字节表示一个字符.   
 
-　　中文,亚洲文字:    24位,三个字节表示. 
+　　   中文,亚洲文字:    24位,三个字节表示. 
 
 ```python
 # 思考：python中一个字符串为 'a太白'，那么如果用UTF-8码编码，这个字符串占几个字节？
