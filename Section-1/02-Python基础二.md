@@ -186,7 +186,7 @@ print(222)
 
 ![img](https://images.cnblogs.com/OutliningIndicators/ContractedBlock.gif) 练习3：打印1~100所有的偶数
 
-####   
+
 
 ####  2.3.3 终止循环的第三个方法**：今天先不讲了，后面会给大家补充。
 
