@@ -156,12 +156,6 @@ while flag:
 
 
 
-![img](https://images.cnblogs.com/OutliningIndicators/ContractedBlock.gif) 练习1:输出1~100所有的数字
-
-![img](https://images.cnblogs.com/OutliningIndicators/ContractedBlock.gif) 练习2：使用while循环求出1-100所有数的和.
-
-
-
 ####  2.3.2 终止循环的第二方法：break
 
  　break：很简单，就是Python给大家提供的关键字，什么是关键字？就是python中具有一定特殊意义的单词，比如if，str，int等，这些不能用作变量对吧？ 
@@ -184,11 +178,7 @@ print(222)
 
 
 
-![img](https://images.cnblogs.com/OutliningIndicators/ContractedBlock.gif) 练习3：打印1~100所有的偶数
-
-
-
-####  2.3.3 终止循环的第三个方法**：今天先不讲了，后面会给大家补充。
+####  2.3.3 终止循环的第三个方法
 
 ####  2.3.4 continue
 
@@ -207,12 +197,6 @@ while flag:
     print('我要这铁棒有何用')
 print(222)
 ```
-
-
-
-![img](https://images.cnblogs.com/OutliningIndicators/ContractedBlock.gif) 练习4: 使用while循环打印 1 2 3 4 5 6 8 9 10
-
-![img](https://images.cnblogs.com/OutliningIndicators/ContractedBlock.gif) 练习5:请输出1,2,3,4,5,95,96,97,98,99,100
 
 
 
@@ -332,15 +316,14 @@ Loop 2
 
 　　**2 ,  x or y , x为真，值就是x，x为假，值是y；**
 
-​       x and y, x为真，值是y,x为假，值是x。**
-**
+​       x and y, x为真，值是y,x为假，值是x。
 
 　![img](https://images2017.cnblogs.com/blog/988316/201709/988316-20170918155316712-501488538.png)
 
 例题：求出下列逻辑语句的值。
 
-```
-8 or 4
+```python
+8 or 4  # 
 0 and 3
 0 or 4 and 3 or 7 or 9 and 6
 ```

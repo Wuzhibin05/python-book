@@ -439,7 +439,7 @@ else:
 
 
 
-```python
+```javascript
 var age = 56
 if ( age < 50){
   console.log("还能折腾")
