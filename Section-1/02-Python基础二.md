@@ -323,8 +323,8 @@ Loop 2
 例题：求出下列逻辑语句的值。
 
 ```python
-8 or 4  # 
-0 and 3
+8 or 4  #  8
+0 and 3  # 3
 0 or 4 and 3 or 7 or 9 and 6
 ```
 
