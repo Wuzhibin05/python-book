@@ -332,11 +332,7 @@ print(len(tu1))
 
  
 
-![img](http://crm.pythonav.com/media/uploads/2019/03/28/IMAGE.PNG)
-
-![img](https://images.cnblogs.com/OutliningIndicators/ContractedBlock.gif) 详细解释
-
-![img](https://images.cnblogs.com/OutliningIndicators/ContractedBlock.gif) 解释：字典内存开销巨大(了解)
+![img](https://images.cnblogs.com/OutliningIndicators/ContractedBlock.gif
 
 　　**2.6.2 创建字典的几种方式：**
 
@@ -424,7 +420,7 @@ fromkeys 数据类型的补充时会给大家讲到~
 
 1，集合的创建。
 
-```
+```python
 
 
 set1 = set({1,2,'barry'})
@@ -436,7 +432,7 @@ print(set1,set2)  # {1, 2, 'barry'} {1, 2, 'barry'}
 
 
 
-```
+```python
 set1 = {'alex','wusir','ritian','egon','barry'}
 set1.add('景女神')
 print(set1)
@@ -450,13 +446,13 @@ set1.update([1,2,3])
 print(set1)
 ```
 
-[![复制代码](https://common.cnblogs.com/images/copycode.gif)](javascript:void(0);)
+
 
 3，集合的删。
 
-[![复制代码](https://common.cnblogs.com/images/copycode.gif)](javascript:void(0);)
 
-```
+
+```python
 set1 = {'alex','wusir','ritian','egon','barry'}
 
 set1.remove('alex')  # 删除一个元素
@@ -472,13 +468,13 @@ del set1  # 删除集合
 print(set1)
 ```
 
-[![复制代码](https://common.cnblogs.com/images/copycode.gif)](javascript:void(0);)
+
 
 4，集合的其他操作：
 
 　　4.1 交集。（& 或者 intersection）
 
-```
+```python
 set1 = {1,2,3,4,5}
 set2 = {4,5,6,7,8}
 print(set1 & set2)  # {4, 5}
@@ -487,7 +483,7 @@ print(set1.intersection(set2))  # {4, 5}
 
 　　4.2 并集。（| 或者 union）
 
-```
+```python
 set1 = {1,2,3,4,5}
 set2 = {4,5,6,7,8}
 print(set1 | set2)  # {1, 2, 3, 4, 5, 6, 7,8}print(set2.union(set1))  # {1, 2, 3, 4, 5, 6, 7,8}
@@ -495,7 +491,7 @@ print(set1 | set2)  # {1, 2, 3, 4, 5, 6, 7,8}print(set2.union(set1))  # {1, 2, 3
 
 　　4.3 差集。（- 或者 difference）
 
-```
+```python
 set1 = {1,2,3,4,5}
 set2 = {4,5,6,7,8}
 print(set1 - set2)  # {1, 2, 3}
@@ -504,7 +500,7 @@ print(set1.difference(set2))  # {1, 2, 3}
 
  　4.4反交集。 （^ 或者 symmetric_difference）
 
-```
+```python
 set1 = {1,2,3,4,5}
 set2 = {4,5,6,7,8}
 print(set1 ^ set2)  # {1, 2, 3, 6, 7, 8}
@@ -513,9 +509,9 @@ print(set1.symmetric_difference(set2))  # {1, 2, 3, 6, 7, 8}
 
 　　4.5子集与超集
 
-[![复制代码](https://common.cnblogs.com/images/copycode.gif)](javascript:void(0);)
 
-```
+
+```python
 set1 = {1,2,3}
 set2 = {1,2,3,4,5,6}
 
@@ -526,14 +522,16 @@ print(set2 > set1)
 print(set2.issuperset(set1))  # 这两个相同，都是说明set2是set1超集。
 ```
 
-[![复制代码](https://common.cnblogs.com/images/copycode.gif)](javascript:void(0);)
+
 
 5，frozenset不可变集合，让集合变成不可变类型。
 
-```
+```python
 s = frozenset('barry')
 print(s,type(s))  # frozenset({'a', 'y', 'b', 'r'}) <class 'frozenset'>
 ```
+
+
 
 ## 三.其他（for，enumerate，range）。
 
@@ -575,9 +573,7 @@ for index, name in enumerate(li, 100):  # 起始位置默认是0，可更改
 
 range：指定范围，生成指定数字。
 
-[![复制代码](https://common.cnblogs.com/images/copycode.gif)](javascript:void(0);)
-
-```
+```python
 for i in range(1,10):
     print(i)
 
@@ -588,6 +584,3 @@ for i in range(10,1,-2): # 反向步长
     print(i)
 ```
 
-[![复制代码](https://common.cnblogs.com/images/copycode.gif)](javascript:void(0);)
-
-![img](https://images.cnblogs.com/OutliningIndicators/ContractedBlock.gif) 利用len和range打印列表的索引
